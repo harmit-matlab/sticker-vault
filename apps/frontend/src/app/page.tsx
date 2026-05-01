@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { Button } from '@/components/ui/Button';
 import { FeaturedStickers } from '@/components/FeaturedStickers';
 import { WhyChooseUs } from '@/components/WhyChooseUs';
+import { Footer } from '@/components/Footer';
 
 export default function HomePage() {
   return (
@@ -36,6 +37,7 @@ export default function HomePage() {
 
       <FeaturedStickers />
       <WhyChooseUs />
+      <Footer />
     </main>
   );
 }
